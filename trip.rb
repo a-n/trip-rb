@@ -1,11 +1,11 @@
 =begin
 program:	trip.rb
 function:	An implementation of 2channel-style tripcodes in Ruby.
-				Takes name and tripcode-key in a single UTF-8 encoded string, seperated by "#" and returns an array of [name, tripcode].
-				This algorithm follows the de-facto-standard, ignoring the escaping of characters to their HTML-counterpart
-				(Which means that generated tripcodes might not be compatible with the original 2channel-software.).
+		Takes name and tripcode-key in a single UTF-8 encoded string, seperated by "#" and returns an array of [name, tripcode].
+		This algorithm follows the de-facto-standard, ignoring the escaping of characters to their HTML-counterpart
+		(Which means that generated tripcodes might not be compatible with the original 2channel-software.).
 autor:		Alexander Nowack
-version:		1.0
+version:	1.0
 =end
 
 def trip(namekey)
